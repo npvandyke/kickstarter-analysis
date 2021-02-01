@@ -16,9 +16,11 @@ In order to analyze the outcomes of play-based Kickstarter campaigns based on th
 
 ![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
-It should be noted that unlike the Theater_Outcomes_vs_Launch graph, the graph displayed directly above includes only the subcateory "plays" from the parent category "theater." Further, while this graph displays the campaign outcomes based on the _percentage_ of campaigns which were successful, failed or canceled, the Theater_Outcomes_vs_Launch graph displays the raw _number_ of successful, failed and canceled campaigns rather than displaying them as a percentage. 
+It should be noted that unlike the Theater_Outcomes_vs_Launch graph, this graph includes only the subcateory "plays" from the parent category "theater." Further, while this graph displays the campaign outcomes based on the _percentage_ of campaigns which were successful, failed or canceled, the Theater_Outcomes_vs_Launch graph displays the raw _number_ of successful, failed and canceled campaigns rather than displaying them as a percentage. 
 
 ### Challenges and Difficulties Encountered
+
+Potential challenges that could be encountered in working with this dataset include... 
 ## Results 
 #### Conclusions Drawn from Outcomes Based on Launch Date 
 
@@ -30,8 +32,7 @@ Regardless of the launch date, its apparent that on a month-by-month basis there
 
 Based on the Outcomes_vs_Goals graph provided above, its apparent that there was a 100% failure rate for play-based Kickstarter campaigns with fundraising goals between $5,000 - $9,999 and between $45,000 - $49,000. We can also see that the highest success rates for play-based Kickstarter campaigns were those with goals of less than $1,000; followed by those with goals between $1,000 - $4,999; $35,000 - $39,999; and $40,000 - $44,999. 
 
-* There is not a clear linear correlation between goal amount and success rate, so there may be other factors at play here 
-* The vast majority of campaigns (regardless of success) were in the <$15,000 goal range 
+The graph does not uncover any linear correlation between the success rate of play-based Kickstarter campaigns and the value of their fundraising goals, indicating that there may be other more influencial factors affecting the campaign success rate. However, it is worth noting that the vast majority of play-based Kickstarter campaigns (868 out of 954, or over 90%) had fundraising goals of less than $15,000, suggesting it may be most realistic to set a fundraising goal under the $15,000 range. 
 
 #### Limitations of the Dataset
 * Limitation of Outcomes based on Launch Date: The number successful/failed for each month does not account for the volume of campaigns month-to-month. It may be more informative to have a "percentage successful / percentage failed" based on total campaigns for each nonth. 
