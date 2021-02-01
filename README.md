@@ -12,11 +12,11 @@ In order to analyze the outcomes of theater-based Kickstarter campaigns based on
 It should be noted that this graph includes all theater campaigns from the Kickstarter dataset, which covers multiple theater subcategories, campaign countries, and years of launch. 
 
 ### Analysis of Outcomes Based on Goals 
-In order to analyze the outcomes of play-based Kickstarter campaigns based on their goal amount, I created a graph of the percentage of successful, failed and canceled Kickstarter campaigns for projects under the subcategory "plays," organized by their fundraising goal ranges. The graph was generated off of a chart created to organize the Kickstarter dataset by fundraising goal range, outcome and subcategory using the `Countifs` Excel function. The graph is displayed below: 
+In order to analyze the outcomes of play-based Kickstarter campaigns based on their fundraising goal, I created a graph of the percentage of successful, failed and canceled Kickstarter campaigns for projects under the subcategory "plays," organized by fundraising goal ranges. The graph was generated off of a chart created to organize the Kickstarter dataset by fundraising goal range, outcome and subcategory using the `Countifs` Excel function. The graph is displayed below: 
 
 ![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
-It should be noted that unlike the Theater_Outcomes_vs_Launch graph, the graph displayed directly above includes only the subcateory "plays" from the parent category "theater." Further, 
+It should be noted that unlike the Theater_Outcomes_vs_Launch graph, the graph displayed directly above includes only the subcateory "plays" from the parent category "theater." Further, while this graph displays the campaign outcomes based on the _percentage_ of campaigns which were successful, failed or canceled, the Theater_Outcomes_vs_Launch graph displays the raw _number_ of successful, failed and canceled campaigns rather than displaying them as a percentage. 
 
 ### Challenges and Difficulties Encountered
 ## Results 
