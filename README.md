@@ -19,7 +19,7 @@ In order to analyze the outcomes of play-based Kickstarter campaigns based on th
 It should be noted that unlike the Theater_Outcomes_vs_Launch graph, this graph includes only the subcateory "plays" from the parent category "theater." Further, while this graph displays the campaign outcomes based on the _percentage_ of campaigns which were successful, failed or canceled, the Theater_Outcomes_vs_Launch graph displays the raw _number_ of successful, failed and canceled campaigns rather than displaying them as a percentage. 
 
 ### Challenges and Difficulties Encountered
-Potential challenges that could be encountered in working with this dataset include... 
+Potential challenges that could be encountered in working with this dataset include structuring the "Theater_Outcomes_vs_Launch" pivot table to include only months for the launch date (rather than months and years), and remembering to include all three relevant conditions (subcategory, fundraising goal range and outcome) when organizing the "Outcomes_vs_Goals" dataset using the `Countifs` Excel function. 
 
 ## Results 
 #### Conclusions Drawn from Outcomes Based on Launch Date 
@@ -34,14 +34,17 @@ The graph does not uncover any linear correlation between the success rate of pl
 
 #### Limitations of the Dataset
 ##### Limitation of "Outcomes Based on Launch Date" Data: 
-The number successful/failed for each month does not account for the volume of campaigns month-to-month. It may be more informative to have a "percentage successful / percentage failed" based on total campaigns for each nonth. 
+The graph indicating the number of successful, failed and canceled Kickstarter campaigns based on the month of their launch date may be misleading in that it displays a raw number of campaigns, rather than accounting for month-to-month variation in campaign volume by displaying a percentage of successful/failed/canceled campaigns. For example, the month with the greatest number of successful Kickstarter campaigns (May), was also the month with the greatest number of failed Kickstarter campaigns- in other words the high _volume_ of success does not necessarily indicate a high _rate_ of success. It may be more informative to display these campaign outcomes as a percentage based on total volume per month of launch date. 
 
 ##### Limitations of "Outcomes Based on Goals" Data: 
-* no division based on theater play SUBCATEGORY for launch date, but there was for goals. Also, launch date compared raw numbers while goals compared percentages. 
+The data for Kickstarter campaign outcomes based on fundraising goals has been filtered by the subcateory "plays" under the parent category "theater." If Louise wishes to launch a campaign for a different category of theater, for example a musical, this data may be less informative for her. Further, because this data has been more specifically categorically filtered than the data regarding campaign outcomes based on launch date, it is less directly comparable than had it been left with the more general category filter of "theater." 
+
+It should also be noted that multiple countries with multiple currencies have been included in this dataset. It would be more informative had the currencies been standardized to all reflect the same value. 
 
 ##### Other Limitations of the Dataset: 
-* CURRENCY DIFFERENCES COUNTRY-to-COUNTRY NOT ACCOUNTED FOR 
-*CAMPAIGN LENGTH NOT ACCOUNTED FOR (and according to Kickstarter website: "We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates, and create a helpful sense of urgency around your project."
+
+
+CAMPAIGN LENGTH NOT ACCOUNTED FOR (and according to Kickstarter website: "We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates, and create a helpful sense of urgency around your project."
 
 #### Further Potential Analyses  
 * PERCENTAGE of successful campaigns based on launch date 
