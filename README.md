@@ -53,4 +53,6 @@ Further, as stated above, the affects of the launch date and the fundraising goa
 
 #### Further Potential Analyses  
 
-* PERCENTAGE of successful campaigns based on launch date 
+* An analysis of _percentage_ (rather than volume) of theater-based campaign outcomes based on launch date, as well as an analysis of _theater_-based (rather than play-based) campaign outcomes based on fundraising goal range would provide a more direct comparision of the effects of these two variables on campaign outcome. 
+* An analysis of outcomes based on campaign length may be worth exploring based on the guidance found on Kickstarter's website.
+* An analysis of outcomes based on fundraising goals within the subset of each launch date month may help reveal a launch date-based correlation with campaign outcome which potentially may have been hidden due to the campaign launch date having a more powerful effect on outcome. 
