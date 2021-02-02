@@ -19,7 +19,7 @@ In order to analyze the outcomes of play-based Kickstarter campaigns based on th
 It should be noted that unlike the Theater_Outcomes_vs_Launch graph, this graph includes only the subcateory "plays" from the parent category "theater." Further, while this graph displays the campaign outcomes based on the _percentage_ of campaigns which were successful, failed or canceled, the Theater_Outcomes_vs_Launch graph displays the raw _number_ of successful, failed and canceled campaigns rather than displaying them as a percentage. 
 
 ### Challenges and Difficulties Encountered
-Potential challenges that could be encountered in working with this dataset include structuring the "Theater_Outcomes_vs_Launch" pivot table to include only months for the launch date (rather than months and years), and remembering to include all three relevant conditions (subcategory, fundraising goal range and outcome) when organizing the "Outcomes_vs_Goals" dataset using the `Countifs` Excel function. 
+Potential challenges that could be encountered in working with this dataset include structuring the "Theater_Outcomes_vs_Launch" pivot table to include only _months_ for the launch date (rather than months and years), and remembering to include all three relevant conditions (subcategory, fundraising goal range and outcome) when organizing the "Outcomes_vs_Goals" dataset using the `Countifs` Excel function. 
 
 ## Results 
 #### Conclusions Drawn from Outcomes Based on Launch Date 
@@ -43,8 +43,10 @@ It should also be noted that multiple countries with multiple currencies have be
 
 ##### Other Limitations of the Dataset: 
 
+The only two potential factors that have been accounted for in this analysis of Kickstarter campaign outcomes were the campaign launch date and fundraising goal range, evaluated independently. Obviously there are other potential factors that may affect the success of a campaign. For example, according to Kickstarter's website: 
+>We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates, and create a helpful sense of urgency around your project. 
+Clearly campaign length is a potential factor effecting success rate which has not been accounted for in this analysis. 
 
-CAMPAIGN LENGTH NOT ACCOUNTED FOR (and according to Kickstarter website: "We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates, and create a helpful sense of urgency around your project."
 
 #### Further Potential Analyses  
 * PERCENTAGE of successful campaigns based on launch date 
