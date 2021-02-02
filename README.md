@@ -44,7 +44,8 @@ It should also be noted that multiple countries with multiple currencies have be
 ##### Other Limitations of the Dataset: 
 
 The only two potential factors that have been accounted for in this analysis of Kickstarter campaign outcomes were the campaign launch date and fundraising goal range, evaluated independently. Obviously there are other potential factors that may affect the success of a campaign. For example, according to Kickstarter's website: 
->We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates, and create a helpful sense of urgency around your project.<
+>We recommend setting your campaign at 30 days or less. Campaigns with shorter durations have higher success rates, and create a helpful sense of urgency around your project.
+
 Clearly campaign length is a potential factor effecting success rate which has not been accounted for in this analysis. Another potential factor might include whether or not the project was a staff pick. 
 
 Further, as stated above, the affects of the launch date and the fundraising goal range on the campaign outcome were evaluated independently in this analysis. Especially given that there was no linear correlation between fundraising goal range and campaign outcome in the dataset, the fundraising goal ranges might prove more informative if evaluated within the subset of each launch date month. 
